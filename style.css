@@ -1,0 +1,137 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+/* Main Content */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Coupon Form */
+.coupon-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2.5rem;
+}
+
+.coupon-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+form input, form button {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Coupon List */
+.coupon-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.coupon-card {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+}
+
+.coupon-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.coupon-card p {
+  margin: 0.25rem 0;
+}
+
+.coupon-card button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.coupon-card button:hover {
+  background-color: #059669;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 1.25rem;
+  margin-top: 3rem;
+}
