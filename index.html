@@ -315,7 +315,7 @@ body, div, p {
         
         <div class="w-full md:w-1/2 relative">
           <div class="bg-[#1A73E8]/10 p-4 rounded-2xl relative">
-            <img src="https://images.unsplash.com/photo-1476357471311-43c0db9fb2b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8ZGlnaXRhbCUyNTIwbWFya2V0cGxhY2UlMjUyMFVQSSUyNTIwY291cG9ucyUyNTIwcHJvZmVzc2lvbmFsJTI1MjBwaG90b2dyYXBoeSUyNTIwYmx1ZSUyNTIweWVsbG93JTI1MjBjb2xvciUyNTIwc2NoZW1lJTI1MjBtaW5pbWFsaXN0JTI1MjB0ZWNoJTI1MjBpbnRlcmZhY2UlMjUyMHdpdGglMjUyMG5lZ2F0aXZlJTI1MjBzcGFjZSUyNTIwZm9yJTI1MjB0ZXh0JTI1MjBvdmVybGF5fGVufDB8MHx8Ymx1ZXwxNzQ0OTg1ODIxfDA" 
+            <img src="a-logo-design-showcasing-the-stylized-te_7-3goj9lR9eaKJqsNRSrhg_4qQ5BCGsRSeZ2TEkRlHXHQ.jpeg.jpg" 
             
               alt="Smartphone with payment app on screen"
               onerror="this.onerror=null; this.src='https://placehold.co/600x400'"
@@ -1319,7 +1319,7 @@ body, div, p {
               <div class="flex items-center">
                 <div class="w-10 h-10 rounded-full bg-neutral-200 flex items-center justify-center font-medium mr-3">S</div>
                 <div>
-                  <p class="font-medium text-[#202124]">Sneha Shil </p>
+                  <p class="font-medium text-[#202124]">Billa </p>
                   <div class="flex text-[#F4B400]">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -2438,79 +2438,5 @@ body, div, p {
 </element></div>
       </main>
 
-      <!-- {bodyScripts} -->
-        <!-- Coupon 1 -->
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <h2 class="text-xl font-bold">Google Pay - ₹100 OFF</h2>
-      <p class="text-gray-600">First UPI Transaction</p>
-      <p class="text-sm text-gray-500">Seller: Sneha Shil</p>
-      <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded view-details-btn"
-              data-title="₹100 OFF"
-              data-description="First UPI Transaction"
-              data-seller="Sneha Shil">
-        View Details
-      </button>
-    </div>
-
-    <!-- Coupon 2 -->
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <h2 class="text-xl font-bold">PhonePe - 20% OFF</h2>
-      <p class="text-gray-600">Movie Tickets</p>
-      <p class="text-sm text-gray-500">Seller: Ripan Shil</p>
-      <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded view-details-btn"
-              data-title="20% OFF"
-              data-description="Movie Tickets"
-              data-seller="Ripan Shil">
-        View Details
-      </button>
-    </div>
-
-    <!-- Coupon 3 -->
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <h2 class="text-xl font-bold">Paytm - 50% OFF</h2>
-      <p class="text-gray-600">Food Delivery</p>
-      <p class="text-sm text-gray-500">Seller: Dipto Chakraborty</p>
-      <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded view-details-btn"
-              data-title="50% OFF"
-              data-description="Food Delivery"
-              data-seller="Dipto Chakraborty">
-        View Details
-      </button>
-    </div>
-  </div>
-
-  <!-- Modal Structure -->
-  <div id="couponModal" class="fixed inset-0 z-50 bg-black bg-opacity-50 hidden flex items-center justify-center">
-    <div class="bg-white p-6 rounded-lg w-11/12 max-w-lg relative">
-      <button onclick="closeModal()" class="absolute top-2 right-3 text-lg font-bold text-gray-500">&times;</button>
-      <h3 class="text-xl font-bold mb-2" id="modalTitle">Coupon Title</h3>
-      <p class="text-gray-600 mb-2" id="modalDescription">Coupon description here.</p>
-      <p class="text-sm text-gray-500" id="modalSeller">Seller: Sneha Shil</p>
-    </div>
-  </div>
-
-  <!-- Modal Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const buttons = document.querySelectorAll('.view-details-btn');
-      const modal = document.getElementById('couponModal');
-      const title = document.getElementById('modalTitle');
-      const description = document.getElementById('modalDescription');
-      const seller = document.getElementById('modalSeller');
-
-      buttons.forEach(button => {
-        button.addEventListener('click', () => {
-          title.textContent = button.getAttribute('data-title');
-          description.textContent = button.getAttribute('data-description');
-          seller.textContent = "Seller: " + button.getAttribute('data-seller');
-          modal.classList.remove('hidden');
-        });
-      });
-    });
-
-    function closeModal() {
-      document.getElementById('couponModal').classList.add('hidden');
-    }
-  </script>
    </body>
 </html>
